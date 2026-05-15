@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<profiles version="1">
-  <profile kind="CodeFormatterProfile" name="WhiskyStyle" version="1">
+<profiles version="21">
+  <profile kind="CodeFormatterProfile" name="WhiskyStyle" version="21">
 
-    <!-- Basic indentation -->
     <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
     <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
     <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>
+
+    <!-- Max line length before wrapping -->
     <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="120"/>
 
+    <!-- Let formatter rejoin parameters if they fit on one line -->
+    <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="true"/>
     <!-- Do not collapse manually wrapped lines back into one line -->
-    <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="false"/>
+    <!-- <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="false"/> -->
 
-    <!-- Method parameters: first param stays after (, rest align under it -->
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="83"/>
+    <!-- Wrap only when needed, then align parameters nicely -->
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="82"/>
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_constructor_declaration" value="82"/>
 
-    <!-- Constructor parameters: same behavior -->
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_constructor_declaration" value="83"/>
-
-    <!-- Optional: method call arguments also align similarly -->
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation" value="83"/>
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression" value="83"/>
+    <!-- Same rule for method calls -->
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation" value="82"/>
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression" value="82"/>
 
   </profile>
 </profiles>
