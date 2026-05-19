@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles version="21">
   <profile kind="CodeFormatterProfile" name="WhiskyStyle" version="21">
-
+    <!-- Use spaces, not tabs -->
     <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
     <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
     <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>
@@ -21,6 +21,10 @@
     <!-- Same rule for method calls -->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation" value="82"/>
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression" value="82"/>
+
+    <!-- Record components -->
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_record_components" value="49"/>
+    <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_record_declaration" value="separate_lines_if_wrapped"/>
 
   </profile>
 </profiles>
