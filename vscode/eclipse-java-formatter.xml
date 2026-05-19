@@ -28,5 +28,8 @@
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_record_components" value="49"/>
     <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_record_declaration" value="separate_lines_if_wrapped"/>
 
+    <!-- Enum constants -->
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_enum_constants" value="49"/>
+
   </profile>
 </profiles>
