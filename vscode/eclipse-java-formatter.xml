@@ -20,7 +20,7 @@
     <!-- Continuation indent -->
     <!-- <setting id="org.eclipse.jdt.core.formatter.continuation_indentation" value="1"/> -->
     <!-- Record components -->
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_record_components" value="16"/>
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_record_components" value="49"/>
     <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_record_declaration" value="separate_lines_if_wrapped"/>
 
     <!-- Enum constants -->
