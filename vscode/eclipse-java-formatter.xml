@@ -7,7 +7,7 @@
     <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>
 
     <!-- Max line length before wrapping -->
-    <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="120"/>
+    <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="144"/>
 
     <!-- Wrap only when needed, then align parameters nicely -->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="82"/>
