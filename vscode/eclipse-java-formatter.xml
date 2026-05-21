@@ -17,11 +17,10 @@
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation" value="16"/>
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression" value="16"/>
 
-    <!-- Continuation indent -->
-    <!-- <setting id="org.eclipse.jdt.core.formatter.continuation_indentation" value="1"/> -->
     <!-- Record components -->
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_record_components" value="49"/>
-    <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_record_declaration" value="separate_lines_if_wrapped"/>
+    <setting id="org.eclipse.jdt.core.formatter.continuation_indentation" value="2"/>
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_record_components" value="16"/>
+    <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_record_declaration" value="preserve_positions"/>
 
     <!-- Enum constants = Forced Multiline-->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_enum_constants" value="49"/>
