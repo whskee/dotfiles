@@ -15,7 +15,7 @@
 
     <!-- Same rule for method calls -->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation" value="16"/>
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression" value="80"/>
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_allocation_expression" value="81"/>
 
     <!-- Continuation indent -->
     <!-- <setting id="org.eclipse.jdt.core.formatter.continuation_indentation" value="1"/> -->
