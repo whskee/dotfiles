@@ -23,7 +23,7 @@
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_record_components" value="49"/>
     <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_record_declaration" value="separate_lines_if_wrapped"/>
 
-    <!-- Enum constants -->
+    <!-- Enum constants = Forced Multiline-->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_enum_constants" value="49"/>
 
     <!-- Preserve intentional manual wrapping -->
@@ -36,8 +36,8 @@
     <!-- Keep nested method calls from being exploded too aggressively -->
     <setting id="org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested" value="true"/>
 
-    <!-- Ternary: force ? and : onto their own lines -->
-    <setting id="org.eclipse.jdt.core.formatter.alignment_for_conditional_expression" value="49"/>
+    <!-- Ternary: force ? and : compact wrapping -->
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_conditional_expression" value="16"/>
     <setting id="org.eclipse.jdt.core.formatter.wrap_before_conditional_operator" value="true"/>
 
     <!-- Switch: indent case labels one level inside switch -->
