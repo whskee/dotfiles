@@ -9,17 +9,6 @@
     <!-- Max line length before wrapping -->
     <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="120"/>
 
-    <!-- Preserve intentional manual wrapping -->
-    <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="false"/>
-    <setting id="org.eclipse.jdt.core.formatter.preserve_user_linebreaks" value="true"/>
-
-    <!-- When a method call wraps, allow opening/closing parens to sit nicely -->
-    <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_method_invocation" value="separate_lines_if_wrapped"/>
-
-    <!-- Keep nested method calls from being exploded too aggressively -->
-    <setting id="org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested" value="true"/>
-    
-
     <!-- Wrap only when needed, then align parameters nicely -->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="82"/>
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_constructor_declaration" value="82"/>
@@ -37,5 +26,22 @@
     <!-- Enum constants -->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_enum_constants" value="49"/>
 
+    <!-- Preserve intentional manual wrapping -->
+    <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="false"/>
+    <setting id="org.eclipse.jdt.core.formatter.preserve_user_linebreaks" value="true"/>
+
+    <!-- When a method call wraps, allow opening/closing parens to sit nicely -->
+    <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_method_invocation" value="separate_lines_if_wrapped"/>
+
+    <!-- Keep nested method calls from being exploded too aggressively -->
+    <setting id="org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested" value="true"/>
+
+    <!-- Ternary: force ? and : onto their own lines -->
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_conditional_expression" value="49"/>
+    <setting id="org.eclipse.jdt.core.formatter.wrap_before_conditional_operator" value="true"/>
+
+    <!-- Switch: indent case labels one level inside switch -->
+    <setting id="org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_switch" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_cases" value="true"/>
   </profile>
 </profiles>
