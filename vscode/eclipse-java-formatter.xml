@@ -9,10 +9,16 @@
     <!-- Max line length before wrapping -->
     <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="120"/>
 
-    <!-- Let formatter rejoin parameters if they fit on one line -->
-    <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="true"/>
-    <!-- Do not collapse manually wrapped lines back into one line -->
-    <!-- <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="false"/> -->
+    <!-- Preserve intentional manual wrapping -->
+    <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="false"/>
+    <setting id="org.eclipse.jdt.core.formatter.preserve_user_linebreaks" value="true"/>
+
+    <!-- When a method call wraps, allow opening/closing parens to sit nicely -->
+    <setting id="org.eclipse.jdt.core.formatter.parentheses_positions_in_method_invocation" value="separate_lines_if_wrapped"/>
+
+    <!-- Keep nested method calls from being exploded too aggressively -->
+    <setting id="org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested" value="true"/>
+    
 
     <!-- Wrap only when needed, then align parameters nicely -->
     <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="82"/>
