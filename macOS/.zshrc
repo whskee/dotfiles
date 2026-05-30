@@ -1,4 +1,3 @@
-# /Users/cbidkar/.zshrc
 PS1='%F{166}%B%n';      # print username
 PS1+='%f at ';
 PS1+='%F{71}%m';        # print hostname
