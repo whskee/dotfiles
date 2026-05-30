@@ -19,15 +19,14 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # ------ PLUGINS ------
 zsh_plugins=(
-  # Initializes zsh completions
-  # you can use this instead of running compinit yourself
+  # Initializes zsh completions.
   mattmc3/ez-compinit
 
-  # Extra completion definitions
-  # you can use this to give you extended completions for even more commands
+  # Extra completion definitions.
+  # Must load before ez-compinit because ez-compinit runs compinit.
   zsh-users/zsh-completions
 
-  # Autosuggestions as you type
+  # Autosuggestions as you type.
   zsh-users/zsh-autosuggestions
 )
 
